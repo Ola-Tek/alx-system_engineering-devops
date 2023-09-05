@@ -1,0 +1,2 @@
+#!/bin/bash
+cut -d "i" -fl . € /etc/passwd | set
