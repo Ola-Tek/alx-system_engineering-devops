@@ -1,2 +1,3 @@
 #!/bin/bash
-paste -d,- - | cut -d, -fl
+./print_every_other.sh < input.txt
+
