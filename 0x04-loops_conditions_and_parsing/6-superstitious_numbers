@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+#Display numver from 1-20 and also
+#displays "bad luck" on fourth iteration
+#displays bad luck from japan on ninth iteration
+#displays bad luck from italy on seventeenth iteration loop
+
+range=1
+
+while [ $range -le 20 ]
+do
+
+	echo "$range"
+	case $range in
+	"4") echo "bad luck from china";;
+	"9") echo "bad luck from japan";;
+	"17") echo "bad luck from italy";;
+
+	esac
+
+	(( range++ ))
+
+done
