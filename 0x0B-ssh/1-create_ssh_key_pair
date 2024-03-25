@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+#creates an ssh pair key with a certain number of bytes which is named school
+ssh-keygen -b 4096 -N betty -f school
