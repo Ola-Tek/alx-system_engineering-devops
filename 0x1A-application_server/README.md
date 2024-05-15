@@ -1,0 +1,3 @@
+APPLICATION SERVER
+Gunicorn installation
+Flask installation
